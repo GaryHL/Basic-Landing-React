@@ -1,12 +1,17 @@
 import React from "react";
+
+import CtaHome from "../../components/containerCta/CtaHome";
 import Navbar from "../../components/navbar/Navbar";
+import { ContainerHome } from "./HomeStyled";
 
 const Home = () => {
    return (
-      <div className="home">
-         <Navbar/>
-
-      </div>
+      <>
+         <Navbar />
+         <ContainerHome>
+            <CtaHome />
+         </ContainerHome>
+      </>
    );
 };
 

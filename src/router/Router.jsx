@@ -3,10 +3,10 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 
 import Home from '../views/home/Home';
 import Discover from '../views/discover/Discover';
-import Join from '../views/join/Join'
+import Join from '../views/join/Join.jsx'
 
 
-const Router = () => {
+function Router  () {
    return (
       <BrowserRouter>
          <Routes>

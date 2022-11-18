@@ -1,28 +1,31 @@
 import React from "react";
 
 // import {Link} from 'react-router-dom'
-import {ContainerLinks, ContainerLogo, Nav,LinkNavbar, TextLogo} from './Navbar_styled'
+import {
+   ContainerLinks,
+   ContainerLogo,
+   Nav,
+   LinkNavbar,
+   TextLogo,
+} from "./NavbarStyled";
 import logo from "../../assets/images/logo.svg";
-
-// styled
-
-
 
 const Navbar = () => {
    return (
-    <> 
-        <Nav>
-            <ContainerLogo>
-                <img src={logo}/>
-                <TextLogo>SoundAlgo</TextLogo>
-            </ContainerLogo>
+      <>
+         <Nav>
+            <LinkNavbar to="/home">
+               <ContainerLogo>
+                  <img src={logo} />
+                  <TextLogo>SoundAlgo</TextLogo>
+               </ContainerLogo> 
+            </LinkNavbar>
             <ContainerLinks>
-                <LinkNavbar to="/discover">Discover</LinkNavbar>
-                <LinkNavbar to="/join">Join</LinkNavbar>
+               <LinkNavbar to="/discover">Discover</LinkNavbar>
+               <LinkNavbar to="/join">Join</LinkNavbar>
             </ContainerLinks>
-
-        </Nav>
-    </>
+         </Nav>
+      </>
    );
 };
 

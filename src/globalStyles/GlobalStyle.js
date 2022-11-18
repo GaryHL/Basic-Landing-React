@@ -1,6 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
@@ -20,6 +23,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  font-family: 'Poppins','Sans-serif';
 }
 ol, ul {
 	list-style: none;
@@ -35,5 +39,13 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'Foo';
+  src: url('/path/to/foo.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback; /* <- this can be added to each @font-face definition */
 }
 `;
