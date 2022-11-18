@@ -32,6 +32,7 @@ export const ContainerLinks = styled.div`
 
 export const TextLogo = styled.h2`
    color: white;
+   font-weight: 600;
 `;
 
 export const LinkNavbar = styled(Link)`

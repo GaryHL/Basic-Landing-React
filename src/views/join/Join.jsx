@@ -13,8 +13,7 @@ const Join = () => {
             <h2>Join The</h2>
             <h3>Fun.</h3>
          </TitleJoin>
-         <Form></Form>
-         
+         <Form/>
       </ContainerJoin>
       </>
    );

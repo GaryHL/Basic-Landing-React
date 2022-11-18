@@ -29,7 +29,7 @@ export const ContainerDetails = styled.div`
 export const ContainerImage = styled.div`
    width: 100%;
    overflow: scroll;
-   overflow: hidden;
+   overflow: hidden; 
 `;
 
 export const TitleDiscover = styled.h2`

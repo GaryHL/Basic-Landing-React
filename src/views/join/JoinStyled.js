@@ -23,15 +23,22 @@ export const TitleJoin = styled(motion.div)`
    display:flex;
    flex-direction: column;
    align-self: flex-end;
-   font-size:4rem;
+   font-size:3rem;
    font-weight: 800;
+   >h2{
+      font-size: 3rem;
+   }
    >h3{
-      color:#b310b3
+      color:#b310b3;
+      font-size:3rem;
    }
    @media (min-width: 900px){
       align-self:center;
       flex-direction: row;
       gap:1rem;
+      >h2, >h3{
+      font-size: 4rem;
+   }
    }
 `;
 

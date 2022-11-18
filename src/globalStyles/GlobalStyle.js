@@ -2,7 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+*{margin:0;
+padding: 0};
 
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -15,8 +16,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
+};
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -40,12 +40,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* $general-background : #2F303A;
 
-@font-face {
-  font-family: 'Foo';
-  src: url('/path/to/foo.woff') format('woff');
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback; /* <- this can be added to each @font-face definition */
-}
+$dark-color: #202027;
+$hover-ligth: #202027; 
+$border-inputs: #2E3852;
+$input-focus: #596da0;
+
+$button-bck: #1762A7;
+$button-hover: #2180d8;
+$button-focus: #2796ff;
+$accent-text:#2796ff;
+
+$circle1: #bc3a801a;
+$circle2: #3457b21a; */
 `;
