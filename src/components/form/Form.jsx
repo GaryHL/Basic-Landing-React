@@ -10,11 +10,11 @@ const Form = () => {
          transition={{ duration: 0.5 }}
          animate={{ opacity: 1, scale: 1 }}
       >
-         <h5>Name:</h5>
+         <label>Name:</label>
          <input></input>
-         <h5>Email:</h5>
+         <label>Email:</label>
          <input></input>
-         <h5>Password:</h5>
+         <label>Password:</label>
          <input></input>
          <Button text="Join Now" />
       </ContainerForm>

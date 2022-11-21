@@ -7,7 +7,7 @@ const Discover = () => {
    return (
       <>
          <Navbar />
-         <ContainerDiscover >
+         <ContainerDiscover>
             <DescriptionDiscover />
          </ContainerDiscover>
       </>

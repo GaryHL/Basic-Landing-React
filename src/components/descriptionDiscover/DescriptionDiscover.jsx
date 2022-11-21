@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 
-
 import Cover from "../../assets/images/covers.jpg";
 import iconMore from "../../assets/images/more.svg";
 import iconMicrophone from "../../assets/images/microphone.svg";
@@ -22,27 +21,22 @@ const DescriptionDiscover = () => {
    const [cover, setCover] = useState(0);
 
    return (
-      <ContainerDescription initial={{opacity:0, scale:0.5}} transition={{duration:0.5}} animate={{opacity:1, scale:0.92}}>
+      <ContainerDescription
+         initial={{ opacity: 0, scale: 0.5 }}
+         transition={{ duration: 0.5 }}
+         animate={{ opacity: 1, scale: 0.92 }}
+      >
          <ContainerDetails>
-            <TitleDiscover >Discover new music</TitleDiscover>
+            <TitleDiscover>Discover new music</TitleDiscover>
             <ContainerButtons>
-               <div onClick={()=> setCover(1)}>
-                  <IconButton
-                     text="Charts"
-                     icon={iconMicrophone}
-                  />
+               <div onClick={() => setCover(1)}>
+                  <IconButton text="Charts" icon={iconMicrophone} />
                </div>
-               <div onClick={()=> setCover(2)}>
-                  <IconButton
-                     text="Albums"
-                     icon={iconAlbums}
-                  />
+               <div onClick={() => setCover(2)}>
+                  <IconButton text="Albums" icon={iconAlbums} />
                </div>
-               <div onClick={()=> setCover(3)}>
-                  <IconButton
-                     text="More"
-                     icon={iconMore}
-                  />
+               <div onClick={() => setCover(3)}>
+                  <IconButton text="More" icon={iconMore} />
                </div>
             </ContainerButtons>
             <Text>

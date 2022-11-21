@@ -5,13 +5,13 @@ export const Button = styled.button`
    color: white;
    padding: 0.8rem 0rem;
    border-radius: 0.5rem;
-   border:none;
-   cursor:pointer;
-   width: ${props => props.size == "small" ? '9rem' : 'auto'};
-   transition:0.3s;
-   
-   &:hover{
-    scale: 1.1;
-    transition:0.3s;
+   border: none;
+   cursor: pointer;
+   width: ${(props) => (props.size == "small" ? "9rem" : "auto")};
+   transition: 0.3s;
+
+   &:hover {
+      scale: 1.1;
+      transition: 0.3s;
    }
 `;

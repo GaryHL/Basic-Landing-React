@@ -17,8 +17,8 @@ const Navbar = () => {
             <LinkNavbar to="/home">
                <ContainerLogo>
                   <img src={logo} />
-                  <TextLogo>SoundAlgo</TextLogo>
-               </ContainerLogo> 
+                  <TextLogo>SoundWave</TextLogo>
+               </ContainerLogo>
             </LinkNavbar>
             <ContainerLinks>
                <LinkNavbar to="/discover">Discover</LinkNavbar>

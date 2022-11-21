@@ -1,44 +1,45 @@
 import styled from "styled-components";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 
 export const ContainerJoin = styled.div`
    width: 100%;
    min-height: 100vh;
-   background-color:#292932;
-   display:grid;
+   background-color: #292932;
+   display: grid;
    grid-template-columns: 80%;
-   grid-template-rows:40% 40%;
-   grid-gap:3rem;
+   grid-template-rows: 40% 40%;
+   grid-gap: 3rem;
    justify-content: center;
    /* align-items: center; */
-   @media (min-width: 900px){
-    grid-template-columns:30% 30%; 
-    align-items: center;
-    grid-template-rows: 100%;
+   @media (min-width: 900px) {
+      grid-template-columns: 30% 30%;
+      align-items: center;
+      grid-template-rows: 100%;
    }
 `;
 
 export const TitleJoin = styled(motion.div)`
    color: white;
-   display:flex;
+   display: flex;
    flex-direction: column;
    align-self: flex-end;
-   font-size:3rem;
+   font-size: 3rem;
    font-weight: 800;
-   >h2{
+   > h2 {
       font-size: 3rem;
    }
-   >h3{
-      color:#b310b3;
-      font-size:3rem;
+   > h3 {
+      color: #b310b3;
+      font-size: 3rem;
    }
-   @media (min-width: 900px){
-      align-self:center;
+   @media (min-width: 900px) {
+      align-self: center;
       flex-direction: row;
-      gap:1rem;
-      >h2, >h3{
-      font-size: 4rem;
-   }
+      gap: 1rem;
+      > h2,
+      > h3 {
+         font-size: 4rem;
+      }
    }
 `;
 

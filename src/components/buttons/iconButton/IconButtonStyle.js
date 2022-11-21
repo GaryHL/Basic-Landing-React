@@ -10,15 +10,15 @@ export const ButtonContainer = styled.div`
    align-items: center;
    flex-direction: column;
    padding: 1rem;
-   cursor:pointer;
+   cursor: pointer;
    transition: 0.3s;
-   &:hover{
-    scale:1.2;
-    transition: 0.3s;
-    background-color:#b123b1;
+   &:hover {
+      scale: 1.2;
+      transition: 0.3s;
+      background-color: #b123b1;
    }
-   :focus{
-    color:red;
+   :focus {
+      color: red;
    }
    > p {
       font-size: 1rem;
